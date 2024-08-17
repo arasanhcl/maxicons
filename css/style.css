@@ -15,6 +15,12 @@ p,ul li,ol li {
   line-height: 27px;
   font-weight: 400;
 }
+.sticky-top {
+  background-color: rgba(244, 244, 244, 1);
+}
+.sticky-top .nav-link {
+  color: #131313;
+}
 h1,h2,h3,h4,h5 {
   color: #4C5569;
 }
@@ -47,6 +53,7 @@ header {
 }
 .navbar.navbar-expand-lg {
   top: 0%;
+  z-index: 1;
 }
 .nav-link {
   color: #fff;
@@ -105,12 +112,15 @@ footer a, footer a:hover, #sec4-contact a,
 }
 /*End about us page*/
 /*Careers page*/
-#sec1-careers #carouselExampleIndicators .carousel-item img, #sec1-team #carouselExampleIndicators .carousel-item img, #sec1-services #carouselExampleIndicators .carousel-item img {
+#sec1-careers #carouselExampleIndicators .carousel-item img, #sec1-team #carouselExampleIndicators .carousel-item img, #sec1-services #carouselExampleIndicators .carousel-item img, #sec1-contact #carouselExampleIndicators .carousel-item img, #sec1-projects #carouselExampleIndicators .carousel-item img {
   height: 500px;
+}
+#sec1-home, #sec1-careers, #sec1-team, #sec1-clients, #sec1-contact, #sec1-projects, #sec1-services {
+  margin-top: -120px;
 }
 /*End careers page*/
 /* Services page */
-#sec2-team, #sec2-careers, #sec2-services, #sec3-services, #sec4-services, #sec5-services, #sec6-services, #sec2-contact, #sec3-contact, #sec4-contact, #sec2-projects {
+#sec2-team, #sec2-careers, #sec2-services, #sec3-services, #sec4-services, #sec5-services, #sec6-services, #sec2-contact, #sec3-contact, #sec4-contact, #sec2-projects, #sec2-clients {
   padding: 40px 0px;
 }
 #sec3-contact, #sec3-services, #sec5-services {
@@ -136,4 +146,7 @@ form .name-email-group {
 @media (min-width: 768px) and (max-width: 991px) {
 }
 @media (min-width:992px) {
+  nav.navbar .container {
+      display: flex;
+    }
 }
