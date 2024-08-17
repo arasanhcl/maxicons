@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+  font-family: 'Rubik', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+p,ul li,ol li {
+  color: #131313;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 27px;
+  font-weight: 400;
+}
+h1,h2,h3,h4,h5 {
+  color: #4C5569;
+}
+h1 {
+  font-size: 55px;
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 35px;
+}
+h5 {
+  font-size: 30px;
+}
+h6 {
+  font-size: 25px; 
+}
+/* Header */
+.hero-banner-content h6 {
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header {
+  position: relative;
+}
+.navbar.navbar-expand-lg {
+  top: 0%;
+}
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+.nav-link:hover {
+  color: #78bd99;
+  text-decoration: underline;
+}
+#carouselExampleIndicators .carousel-item {
+  position: relative;
+}
+#carouselExampleIndicators .carousel-item .container-fluid {
+  position: absolute;
+  top: 40%;
+}
+#carouselExampleIndicators .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+#carouselExampleIndicators .carousel-item img {
+  height: 650px;
+}
+#aboutus {
+  margin: 40px auto;
+}
+/* End Header */
+footer .container-fluid {
+  background: #4C5569 0% 0% no-repeat padding-box;
+}
+footer .row {
+  padding: 50px 0px;
+}
+footer p, footer h6 {
+  color: #fff;
+}
+footer i.fa, #sec4-contact i.fa {
+  font-size: 25px;
+}
+footer a, footer a:hover, #sec4-contact a,
+#sec4-contact a:hover{
+  color: unset;
+}
+/*About us page*/
+.bkg-testimonial {
+  padding: 80px 0px;
+  background-color: #78bd99;
+}
+#sec2-aboutus h3, #sec2-aboutus h4, #sec2-aboutus p {
+  color: #fff;
+}
+#sec2-aboutus p {
+  font-weight: 400;
+  font-size: 16px;
+}
+/*End about us page*/
+/*Careers page*/
+#sec1-careers #carouselExampleIndicators .carousel-item img, #sec1-team #carouselExampleIndicators .carousel-item img, #sec1-services #carouselExampleIndicators .carousel-item img {
+  height: 500px;
+}
+/*End careers page*/
+/* Services page */
+#sec2-team, #sec2-careers, #sec2-services, #sec3-services, #sec4-services, #sec5-services, #sec6-services, #sec2-contact, #sec3-contact, #sec4-contact, #sec2-projects {
+  padding: 40px 0px;
+}
+#sec3-contact, #sec3-services, #sec5-services {
+  background-color: #f3f3f3;
+}
+/*End services page*/
+/*Contact Us page*/
+form .name-email-group {
+  display: flex;
+  gap: 20px;
+}
+#sec3-contact iframe {
+  max-width: 100%;
+}
+/*End contact Us page*/
+/*Project page*/
+#sec2-projects .mb-50 {
+  margin-bottom: 50px;
+}
+/*End projects page*/
+@media (max-width:768px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width:992px) {
+}
